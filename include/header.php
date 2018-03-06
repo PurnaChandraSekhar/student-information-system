@@ -13,3 +13,9 @@
         <link rel="stylesheet" href="./static/css/main.css">
     </head>
 <body>
+    <header>
+        <div class="search-box">
+            <input type="search" name="search" placeholder="Search">
+            <img src="./static/icon/search.svg" alt="">
+        </div>
+    </header>

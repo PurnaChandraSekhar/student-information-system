@@ -1,0 +1,38 @@
+/*
+THIS FILE CONTAINS CODE FOR include/header,php
+*/
+
+header {
+  display: grid;
+  position: fixed;
+  top: 0;
+  left: 15%;
+  background-color: White;
+  height: 60px;
+  width: 100%;
+  z-index: 2;
+  grid-template: 60px/ 2fr 1fr;
+
+  .search-box {
+    padding: 5% 0;
+    position: relative;
+  }
+  .search-box input {
+    width: 90%;
+    margin-left: 10%;
+    height: 90%;
+    background-color: darken(white, 1%);
+    color: rgba(0, 0, 0, .9);
+    padding-left: 15px;
+    outline: none;
+    border: none;
+  }
+  .search-box img {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    top: 30%;
+    right: 2%;
+  }
+}
