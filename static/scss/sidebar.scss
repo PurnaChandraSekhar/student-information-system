@@ -1,0 +1,54 @@
+.sidebar
+{
+  position: fixed;
+  top: 0;
+  color: rgba(255,255,255,.7);
+  left: 0;
+  width: 15%;
+  background-color: $sidebar-color;
+  min-height: 100vh;
+
+
+  .profile-photo
+  {
+    //background-color: aqua;
+    height: 30vh;
+    P
+    {
+      width: 50%;
+      text-align: center;
+      margin: 10px 20% 10px;
+    }
+    .edit-profile
+    {
+      border: 1px solid rgba(255,255,255,.7);
+      border-radius: 15px;
+
+
+      font-size: 14px;
+      padding: 4px;
+    }
+  }
+  img
+  {
+    width: 50%;
+    margin:10% 20% 5%;
+    height: 60%;
+    border-radius: 50%;
+  }
+  ul
+  {
+    margin-top: 15%;
+    width: 100%;
+  }
+  li {
+    //background-color: aqua;
+    list-style-type: none;
+    padding: 10% 0 10% 22%;
+    &:hover
+    {
+      cursor: pointer;
+      background-color: lighten($sidebar-color,10%);
+    }
+  }
+}
