@@ -1,0 +1,44 @@
+header
+{
+  left: 0;
+  grid-template: 60px/ 15% 85%;
+
+  .menu,.new_menu
+  {
+    display: block;
+    padding-top: 10px;
+    grid-column: 1/2;
+    cursor: pointer;
+    span
+    {
+      display: block;
+      width: 35px;
+      background-color: black;
+      height: 4px;
+      margin: 7px 15px 0;
+    }
+    //background-color: yellow;
+  }
+  .new_menu
+  {
+    display: none;
+    position: fixed;
+    left: 51%;
+    span{
+      margin: 7px 0 0 0 ;
+      background-color: black
+    }
+  }
+  .search-box
+  {
+    grid-column: 2/-1;
+    position: static;
+    input{
+      margin-left: 0;
+    }
+    img
+    {
+      right: 5%;
+    }
+  }
+}
