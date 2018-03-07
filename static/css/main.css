@@ -39,6 +39,8 @@ header {
   grid-template: 60px/ 2fr 1fr;
   -webkit-box-shadow: 20px 0 10px -3px rgba(0, 0, 0, 0.9);
   box-shadow: 20px 0 10px -3px rgba(0, 0, 0, 0.9); }
+  header .menu {
+    display: none; }
   header .search-box {
     padding: 5% 0;
     position: relative; }
@@ -181,10 +183,3 @@ ADMIN FOLDER STYLESHEETS
       height: 100%;
       background-color: white;
       border-radius: 5px; }
-
-@media only screen and (min-width: 312px) and (max-width: 767px) {
-  .login-header h2 {
-    font-size: 30px; }
-  form.login-form {
-    width: 90%;
-    margin: 20% 5% 2%; } }

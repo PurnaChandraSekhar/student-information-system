@@ -9,6 +9,7 @@
 require_once '../include.php';
 $login->check_login();
 $css_link="../static/css/main.css";
+$mobile_css_link="../static/css/mobile.css";
 
 include '../include/header.php';
 include '../include/sidebar.php';

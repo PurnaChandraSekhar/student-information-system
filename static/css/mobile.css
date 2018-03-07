@@ -1,0 +1,48 @@
+@media only screen and (min-width: 312px) and (max-width: 767px) {
+  /*
+THIS FILE CONTAINS CODE FOR BASIC LAYOUT CHANGING IN MOBILE DEVICES
+LIKE HIDING AND DISPLAYING SIDEBAR WHITH THE USE OF JAVASCRIPT
+*/
+  .wrapper {
+    width: 100%;
+    left: 0; }
+  .sidebar {
+    display: none;
+    width: 50%;
+    z-index: 2;
+    font-size: 15px; }
+    .sidebar li {
+      font-size: 15px; }
+  header {
+    left: 0;
+    grid-template: 60px/ 15% 85%; }
+    header .menu, header .new_menu {
+      display: block;
+      padding-top: 10px;
+      grid-column: 1/2;
+      cursor: pointer; }
+      header .menu span, header .new_menu span {
+        display: block;
+        width: 35px;
+        background-color: black;
+        height: 4px;
+        margin: 7px 15px 0; }
+    header .new_menu {
+      display: none;
+      position: fixed;
+      left: 51%; }
+      header .new_menu span {
+        margin: 7px 0 0 0;
+        background-color: black; }
+    header .search-box {
+      grid-column: 2/-1;
+      position: static; }
+      header .search-box input {
+        margin-left: 0; }
+      header .search-box img {
+        right: 5%; }
+  .login-header h2 {
+    font-size: 30px; }
+  form.login-form {
+    width: 90%;
+    margin: 20% 5% 2%; } }
