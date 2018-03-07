@@ -1,0 +1,24 @@
+.admin-container {
+  color: rgba(0, 0, 0, 0.8); }
+  .admin-container p, .admin-container h2 {
+    display: inline-block; }
+  .admin-container p {
+    margin-left: 75%;
+    color: black; }
+    .admin-container p a {
+      background-color: white;
+      padding: 10px 30px;
+      font-size: 1vw;
+      color: black;
+      border-radius: 15px;
+      width: 100%;
+      border: .5px solid aqua; }
+  .admin-container .school-list {
+    display: grid;
+    width: 100%;
+    height: 500px;
+    grid-template: 20px/repeat(2, 1fr); }
+    .admin-container .school-list div {
+      width: 100%;
+      height: 100%;
+      background-color: pink; }

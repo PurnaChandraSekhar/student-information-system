@@ -12,6 +12,7 @@ header {
   width: 100%;
   z-index: 2;
   grid-template: 60px/ 2fr 1fr;
+  box-shadow: 20px 0 10px -3px rgba(0,0,0,.9);
 
   .search-box {
     padding: 5% 0;

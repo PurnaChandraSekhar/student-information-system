@@ -1,7 +1,25 @@
+/*
+THIS FILE CONTAINS DEFAULT LAYOUT codes
+*/
+
 body
 {
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 100vh;
   font-family: 'Open Sans', sans-serif;
-  background-color: grey;
+  background-color: lighten(darkgrey,15%);
+}
+
+.wrapper
+{
+  width: 85%;
+  min-height: calc(100vh - 60px);
+  position: absolute;
+  padding: 5% 3%;
+  top: 60px;
+  left: 15%;
+}
+a
+{
+  text-decoration: none;
 }

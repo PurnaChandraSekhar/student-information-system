@@ -10,7 +10,7 @@
 
 <section class="sidebar">
     <div class="profile-photo">
-        <img  src="./static/img/demo.jpg" alt="">
+        <img  src="../static/img/demo.jpg" alt="">
         <p>Username</p>
         <p class="edit-profile">Edit Profile</p>
     </div>

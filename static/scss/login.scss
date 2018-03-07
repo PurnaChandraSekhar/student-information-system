@@ -1,0 +1,61 @@
+.login-header
+{
+  position: static;
+  height: 10vh;
+  display: block;
+  h2
+  {
+    color: rgba(0,0,0,.7);
+    font-size: 48px;
+    text-align: center;
+  }
+}
+form.login-form
+{
+  width: 40%;
+  margin: 10% 30%;
+  display: grid;
+  color: rgba(0,0,0,.7);
+  grid-template-rows:80px 25px 50px 25px 60px 50px;
+  grid-template-columns:1fr;
+  grid-gap: 10px;
+  input[type="text"],input[type="password"],label
+  {
+    display: block;
+    margin: 0;
+  }
+  #username,#password
+  {
+    padding: 5px;
+
+    height: 50px;
+  }
+  input
+  {
+    outline: none;
+    border-radius: 5px;
+    border: none;
+  }
+  input[type="submit"]
+  {
+    background-color: #0e1a25;
+    border: none;
+
+    color: rgba(255,255,255,.8);
+    box-shadow: 0 10px 10px -2px rgba(0,0,0,.7);
+    cursor: pointer;
+    &:hover
+    {
+      background-color: lighten(#0e1a25,3%);
+    }
+  }
+  div
+  {
+    grid-column: 1/-1;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    background-color: lightcyan;
+    padding-top: 30%;
+  }
+}

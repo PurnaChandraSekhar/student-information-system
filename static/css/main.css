@@ -4,11 +4,25 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+/*
+THIS FILE CONTAINS DEFAULT LAYOUT codes
+*/
 body {
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 100vh;
   font-family: 'Open Sans', sans-serif;
-  background-color: grey; }
+  background-color: #cfcfcf; }
+
+.wrapper {
+  width: 85%;
+  min-height: calc(100vh - 60px);
+  position: absolute;
+  padding: 5% 3%;
+  top: 60px;
+  left: 15%; }
+
+a {
+  text-decoration: none; }
 
 /*
 THIS FILE CONTAINS CODE FOR include/header,php
@@ -22,7 +36,9 @@ header {
   height: 60px;
   width: 100%;
   z-index: 2;
-  grid-template: 60px/ 2fr 1fr; }
+  grid-template: 60px/ 2fr 1fr;
+  -webkit-box-shadow: 20px 0 10px -3px rgba(0, 0, 0, 0.9);
+  box-shadow: 20px 0 10px -3px rgba(0, 0, 0, 0.9); }
   header .search-box {
     padding: 5% 0;
     position: relative; }
@@ -51,6 +67,7 @@ THIS FILE CONTAINS CODE FOR include/sidebar.php
   top: 0;
   color: rgba(255, 255, 255, 0.7);
   left: 0;
+  font-size: 1vw;
   width: 15%;
   background-color: #0a1a29;
   min-height: 100vh; }
@@ -59,12 +76,11 @@ THIS FILE CONTAINS CODE FOR include/sidebar.php
     .sidebar .profile-photo P {
       width: 50%;
       text-align: center;
-      margin: 10px 20% 10px; }
+      margin: 5% 20% 5%; }
     .sidebar .profile-photo .edit-profile {
       border: 1px solid rgba(255, 255, 255, 0.7);
       border-radius: 15px;
-      font-size: 14px;
-      padding: 4px; }
+      padding: 2%; }
       .sidebar .profile-photo .edit-profile:hover {
         background-color: #fff;
         border-color: #0e1a25;
@@ -80,7 +96,95 @@ THIS FILE CONTAINS CODE FOR include/sidebar.php
     width: 100%; }
   .sidebar li {
     list-style-type: none;
+    font-size: 1.2vw;
     padding: 10% 0 10% 22%; }
     .sidebar li:hover {
       cursor: pointer;
       background-color: #143452; }
+
+.login-header {
+  position: static;
+  height: 10vh;
+  display: block; }
+  .login-header h2 {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 48px;
+    text-align: center; }
+
+form.login-form {
+  width: 40%;
+  margin: 10% 30%;
+  display: grid;
+  color: rgba(0, 0, 0, 0.7);
+  grid-template-rows: 80px 25px 50px 25px 60px 50px;
+  grid-template-columns: 1fr;
+  grid-gap: 10px; }
+  form.login-form input[type="text"], form.login-form input[type="password"], form.login-form label {
+    display: block;
+    margin: 0; }
+  form.login-form #username, form.login-form #password {
+    padding: 5px;
+    height: 50px; }
+  form.login-form input {
+    outline: none;
+    border-radius: 5px;
+    border: none; }
+  form.login-form input[type="submit"] {
+    background-color: #0e1a25;
+    border: none;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.7);
+    cursor: pointer; }
+    form.login-form input[type="submit"]:hover {
+      background-color: #122230; }
+  form.login-form div {
+    grid-column: 1/-1;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    background-color: lightcyan;
+    padding-top: 30%; }
+
+/*
+ADMIN FOLDER STYLESHEETS
+*/
+.admin-container {
+  color: rgba(0, 0, 0, 0.8);
+  display: block; }
+  .admin-container p, .admin-container h2 {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.7); }
+  .admin-container h2 {
+    padding-left: 2%; }
+  .admin-container p {
+    margin-left: 75%;
+    color: black; }
+    .admin-container p a {
+      background-color: white;
+      padding: 10px 30px;
+      font-size: 1vw;
+      color: black;
+      border-radius: 15px;
+      width: 100%;
+      border: .5px solid aqua; }
+  .admin-container .school-list {
+    display: grid;
+    width: 100%;
+    padding: 2%;
+    height: auto;
+    grid-auto-rows: minmax(250px, 300px);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1%; }
+    .admin-container .school-list div {
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      border-radius: 5px; }
+
+@media only screen and (min-width: 312px) and (max-width: 767px) {
+  .login-header h2 {
+    font-size: 30px; }
+  form.login-form {
+    width: 90%;
+    margin: 20% 5% 2%; } }

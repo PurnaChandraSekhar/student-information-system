@@ -8,6 +8,7 @@ THIS FILE CONTAINS CODE FOR include/sidebar.php
   top: 0;
   color: rgba(255,255,255,.7);
   left: 0;
+  font-size: 1vw;
   width: 15%;
   background-color: $sidebar-color;
   min-height: 100vh;
@@ -20,14 +21,14 @@ THIS FILE CONTAINS CODE FOR include/sidebar.php
     {
       width: 50%;
       text-align: center;
-      margin: 10px 20% 10px;
+      margin: 5% 20% 5%;
     }
     .edit-profile
     {
       border: 1px solid rgba(255,255,255,.7);
       border-radius: 15px;
-      font-size: 14px;
-      padding: 4px;
+
+      padding: 2%;
       &:hover
       {
         background-color: #fff;
@@ -50,8 +51,8 @@ THIS FILE CONTAINS CODE FOR include/sidebar.php
     width: 100%;
   }
   li {
-    //background-color: aqua;
     list-style-type: none;
+    font-size: 1.2vw;
     padding: 10% 0 10% 22%;
     &:hover
     {
