@@ -1,0 +1,19 @@
+/*
+THIS FILE CONTAINS CODE FOR BASIC LAYOUT CHANGING IN MOBILE DEVICES
+LIKE HIDING AND DISPLAYING SIDEBAR WHITH THE USE OF JAVASCRIPT
+*/
+.wrapper
+{
+  width: 100%;
+  left: 0;
+}
+.sidebar
+{
+  display: none;
+  width: 50%;
+  z-index: 2;
+  font-size: 15px;
+  li{
+    font-size: 15px;
+  }
+}
