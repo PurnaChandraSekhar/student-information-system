@@ -16,12 +16,16 @@ require_once '../include/sidebar.php';
     {
         $id=$_GET['school_id'];
         $name=$_GET['school_name'];
-        if(ctype_alpha($id) && ctype_alpha($name) && strlen($name)>6 && strlen($id)>2)
+        if((ctype_alpha($id) && ctype_alpha(str_replace(' ', '', $name))) && strlen($name)>5 && strlen($id)>2)
         {
             $result = $sAdmin->add_school();
             if($result)
             {
                 header('LOCATION:departmentAdd.php?sid='.$id);
+            }
+            else
+            {
+                $msg="School id already exists";
             }
         }
         else
