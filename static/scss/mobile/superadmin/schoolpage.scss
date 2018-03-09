@@ -1,0 +1,21 @@
+.add-school-page
+{
+  min-height: 60vh;
+  grid-template-rows: 100px auto;
+  grid-row-gap: 15px;
+  .add-school-form
+  {
+    padding: 3%;
+    grid-template-rows: repeat(2,40%) 20%;
+    grid-template-columns: 1fr;
+  }
+  input[type="submit"]
+  {
+    margin-top:0;
+    width: 100%;
+  }
+  .instruction-msg
+  {
+    padding: 2% 0 2% 5%;
+  }
+}
