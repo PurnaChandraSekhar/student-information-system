@@ -17,7 +17,7 @@ include '../include/sidebar.php';
 <section class="wrapper">
     <div class="admin-container">
         <h2>School list</h2>
-        <p><a href="">Add New</a></p>
+        <p><a href="school.php">Add New</a></p>
 
         <div class="school-list"> <!-- school listing div starts-->
             <div></div>
