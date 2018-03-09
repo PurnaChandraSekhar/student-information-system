@@ -1,0 +1,21 @@
+.admin-container
+{
+  h2,p
+  {
+    display: inline-block;
+    width: 50%;
+  }
+  p {
+    position: absolute;
+    right: -16%;
+    top: 35px;
+    a
+    {
+      font-size: 14px;
+    }
+  }
+  .school-list
+  {
+    margin-top: 5%;
+  }
+}

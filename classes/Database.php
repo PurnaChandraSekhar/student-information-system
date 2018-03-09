@@ -12,7 +12,7 @@ class Database
         global $db;
         try
         {
-            $db = new PDO("mysql:host=localhost;dbname=student-info-system;", 'root', '1mlRgbdmMBj2LQeW');
+            $db = new PDO("mysql:host=localhost;dbname=student-info-system;", 'root', 'pAHSYAVvjrmZwtqL');
             $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
             $db->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING );
         }

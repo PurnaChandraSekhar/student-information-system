@@ -45,4 +45,15 @@ LIKE HIDING AND DISPLAYING SIDEBAR WHITH THE USE OF JAVASCRIPT
     font-size: 30px; }
   form.login-form {
     width: 90%;
-    margin: 20% 5% 2%; } }
+    margin: 20% 5% 2%; }
+  .admin-container h2, .admin-container p {
+    display: inline-block;
+    width: 50%; }
+  .admin-container p {
+    position: absolute;
+    right: -16%;
+    top: 35px; }
+    .admin-container p a {
+      font-size: 14px; }
+  .admin-container .school-list {
+    margin-top: 5%; } }
