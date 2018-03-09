@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab4efbcb-8c36-4a37-aade-35065e89824d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/classes/SuperAdmin.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/scss/mobile/superadmin/index.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/scss/superadmin/schoolpage.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/superadmin/departmentAdd.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/superadmin/school.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/classes/Database.php" afterPath="$PROJECT_DIR$/classes/Database.php" />
-      <change beforePath="$PROJECT_DIR$/include.php" afterPath="$PROJECT_DIR$/include.php" />
       <change beforePath="$PROJECT_DIR$/prepros-6.config" afterPath="$PROJECT_DIR$/prepros-6.config" />
       <change beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
       <change beforePath="$PROJECT_DIR$/static/css/mobile.css" afterPath="$PROJECT_DIR$/static/css/mobile.css" />
       <change beforePath="$PROJECT_DIR$/static/scss/base.scss" afterPath="$PROJECT_DIR$/static/scss/base.scss" />
-      <change beforePath="$PROJECT_DIR$/static/scss/header.scss" afterPath="$PROJECT_DIR$/static/scss/header.scss" />
+      <change beforePath="$PROJECT_DIR$/static/scss/extended.scss" afterPath="$PROJECT_DIR$/static/scss/extended.scss" />
       <change beforePath="$PROJECT_DIR$/static/scss/layout.scss" afterPath="$PROJECT_DIR$/static/scss/layout.scss" />
-      <change beforePath="$PROJECT_DIR$/static/scss/login.scss" afterPath="$PROJECT_DIR$/static/scss/login.scss" />
       <change beforePath="$PROJECT_DIR$/static/scss/mobile/mobilebase.scss" afterPath="$PROJECT_DIR$/static/scss/mobile/mobilebase.scss" />
-      <change beforePath="$PROJECT_DIR$/superadmin/index.php" afterPath="$PROJECT_DIR$/superadmin/index.php" />
+      <change beforePath="$PROJECT_DIR$/static/scss/mobile/superadmin/programmeadd.scss" afterPath="$PROJECT_DIR$/static/scss/mobile/superadmin/programmeadd.scss" />
+      <change beforePath="$PROJECT_DIR$/static/scss/mobile/superadmin/schoolpage.scss" afterPath="$PROJECT_DIR$/static/scss/mobile/superadmin/schoolpage.scss" />
+      <change beforePath="$PROJECT_DIR$/static/scss/superadmin/programmeAdd.scss" afterPath="$PROJECT_DIR$/static/scss/superadmin/programmeAdd.scss" />
+      <change beforePath="$PROJECT_DIR$/static/scss/superadmin/schoolpage.scss" afterPath="$PROJECT_DIR$/static/scss/superadmin/schoolpage.scss" />
+      <change beforePath="$PROJECT_DIR$/superadmin/programmeAdd.php" afterPath="$PROJECT_DIR$/superadmin/programmeAdd.php" />
+      <change beforePath="$PROJECT_DIR$/superadmin/school.php" afterPath="$PROJECT_DIR$/superadmin/school.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,53 +37,38 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="school.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/superadmin/school.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-437">
-              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="departmentAdd.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/superadmin/departmentAdd.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuperAdmin.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classes/SuperAdmin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="39" column="45" lean-forward="false" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
-              <folding>
-                <marker date="1520557974458" expanded="true" signature="439:464" ph="INSERT INTO school... " />
-                <marker date="1520557974458" expanded="true" signature="439:465" ph="INSERT INTO school... " />
-                <marker date="1520557974458" expanded="true" signature="439:483" ph="INSERT INTO school... " />
-                <marker date="1520557974458" expanded="true" signature="719:757" ph="SELECT * FRO... school" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/scss/layout.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="programmeAdd.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/superadmin/programmeAdd.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="347">
+                  <caret line="66" column="34" lean-forward="true" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/static/js/script.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="338">
+                  <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#1046#1104#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,22 +103,30 @@
         <option value="$PROJECT_DIR$/static/scss/mobile/login.scss" />
         <option value="$PROJECT_DIR$/static/scss/mobile/layout.scss" />
         <option value="$PROJECT_DIR$/include/header.php" />
-        <option value="$PROJECT_DIR$/static/js/script.js" />
         <option value="$PROJECT_DIR$/static/scss/mobile/header.scss" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/static/scss/login.scss" />
         <option value="$PROJECT_DIR$/classes/Database.php" />
-        <option value="$PROJECT_DIR$/static/scss/mobile/mobilebase.scss" />
         <option value="$PROJECT_DIR$/static/scss/mobile/superadmin/index.scss" />
         <option value="$PROJECT_DIR$/superadmin/index.php" />
-        <option value="$PROJECT_DIR$/static/scss/base.scss" />
         <option value="$PROJECT_DIR$/static/scss/header.scss" />
-        <option value="$PROJECT_DIR$/static/scss/superadmin/schoolpage.scss" />
-        <option value="$PROJECT_DIR$/static/scss/layout.scss" />
         <option value="$PROJECT_DIR$/include.php" />
-        <option value="$PROJECT_DIR$/superadmin/school.php" />
-        <option value="$PROJECT_DIR$/superadmin/departmentAdd.php" />
         <option value="$PROJECT_DIR$/classes/SuperAdmin.php" />
+        <option value="$PROJECT_DIR$/static/scss/superadmin/departmentAdd.scss" />
+        <option value="$PROJECT_DIR$/static/scss/mobile/superadmin/schoolpage.scss" />
+        <option value="$PROJECT_DIR$/superadmin/departmentAdd.php" />
+        <option value="$PROJECT_DIR$/superadmin/school.php" />
+        <option value="$PROJECT_DIR$/static/scss/base.scss" />
+        <option value="$PROJECT_DIR$/static/icon/delete.svg" />
+        <option value="$PROJECT_DIR$/static/icon/plus.svg" />
+        <option value="$PROJECT_DIR$/static/scss/layout.scss" />
+        <option value="$PROJECT_DIR$/static/scss/extended.scss" />
+        <option value="$PROJECT_DIR$/static/scss/superadmin/schoolpage.scss" />
+        <option value="$PROJECT_DIR$/static/scss/superadmin/programmeAdd.scss" />
+        <option value="$PROJECT_DIR$/static/scss/mobile/mobilebase.scss" />
+        <option value="$PROJECT_DIR$/static/scss/mobile/superadmin/programmeadd.scss" />
+        <option value="$PROJECT_DIR$/superadmin/programmeAdd.php" />
+        <option value="$PROJECT_DIR$/static/js/script.js" />
       </list>
     </option>
   </component>
@@ -181,18 +171,13 @@
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
@@ -251,22 +236,22 @@
       <workItem from="1520380524708" duration="8595000" />
       <workItem from="1520390825611" duration="20165000" />
       <workItem from="1520468171065" duration="8395000" />
-      <workItem from="1520555063354" duration="2898000" />
+      <workItem from="1520555063354" duration="14658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54720000" />
+    <option name="totallyTimeSpent" value="66480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18532526" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18532526" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -278,7 +263,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -295,7 +279,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -391,6 +375,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -405,13 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/variable.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -456,6 +434,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1127">
           <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -470,13 +449,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -491,6 +464,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
           <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -501,24 +475,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/mobile/mobilebase.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/scss/mobile/superadmin/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -561,26 +522,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/superadmin/schoolpage.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/SuperAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <marker date="1520557974458" expanded="true" signature="439:464" ph="INSERT INTO school... " />
+            <marker date="1520557974458" expanded="true" signature="439:465" ph="INSERT INTO school... " />
+            <marker date="1520557974458" expanded="true" signature="439:483" ph="INSERT INTO school... " />
+            <marker date="1520557974458" expanded="true" signature="719:757" ph="SELECT * FRO... school" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/mobile/superadmin/schoolpage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="79" lean-forward="false" selection-start-line="0" selection-start-column="79" selection-end-line="0" selection-end-column="79" />
           <folding />
         </state>
       </provider>
@@ -593,32 +559,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/superadmin/school.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-437">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="322">
+          <caret line="23" column="72" lean-forward="false" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/superadmin/departmentAdd.php">
+    <entry file="file://$PROJECT_DIR$/static/scss/variable.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="23">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/SuperAdmin.php">
+    <entry file="file://$PROJECT_DIR$/static/icon/delete.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/icon/plus.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/extended.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="39" column="45" lean-forward="false" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+        <state relative-caret-position="437">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/superadmin/schoolpage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/mobile/mobilebase.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/superadmin/programmeAdd.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-237">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/mobile/superadmin/programmeadd.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding>
-            <marker date="1520557974458" expanded="true" signature="439:464" ph="INSERT INTO school... " />
-            <marker date="1520557974458" expanded="true" signature="439:465" ph="INSERT INTO school... " />
-            <marker date="1520557974458" expanded="true" signature="439:483" ph="INSERT INTO school... " />
-            <marker date="1520557974458" expanded="true" signature="719:757" ph="SELECT * FRO... school" />
+            <element signature="e#1046#1104#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superadmin/programmeAdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="66" column="34" lean-forward="true" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>

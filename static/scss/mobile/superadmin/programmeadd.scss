@@ -1,0 +1,31 @@
+.add-programme-form
+{
+  .form-wrapper
+  {
+    margin: 15px 0;
+    background-color: darken(#fff,10%);
+    border-radius: 5px;
+    padding: 2%;
+    grid-row-gap: 20px;
+    //color: rgba(255,255,255,.9);
+    grid-template: repeat(2,60px)/1fr;
+  }
+  input[type="text"]
+  {
+    //background-color: white;
+    //border-color:white;
+  }
+  .icon
+  {
+    margin: 1% 0 1% 60%;
+    img
+    {
+      margin: 0 10px;
+    }
+  }
+  input[type="submit"]
+  {
+    margin: 2% 0;
+    width: 100%;
+  }
+}

@@ -56,4 +56,31 @@ LIKE HIDING AND DISPLAYING SIDEBAR WHITH THE USE OF JAVASCRIPT
     .admin-container p a {
       font-size: 14px; }
   .admin-container .school-list {
-    margin-top: 5%; } }
+    margin-top: 5%; }
+  .add-school-page {
+    min-height: 60vh;
+    grid-template-rows: 100px auto;
+    grid-row-gap: 15px; }
+    .add-school-page .add-school-form {
+      padding: 3%;
+      grid-template-rows: repeat(2, 40%) 20%;
+      grid-template-columns: 1fr; }
+    .add-school-page input[type="submit"] {
+      margin-top: 0;
+      width: 100%; }
+    .add-school-page .instruction-msg {
+      padding: 2% 0 2% 5%; }
+  .add-programme-form .form-wrapper {
+    margin: 15px 0;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    padding: 2%;
+    grid-row-gap: 20px;
+    grid-template: repeat(2, 60px)/1fr; }
+  .add-programme-form .icon {
+    margin: 1% 0 1% 60%; }
+    .add-programme-form .icon img {
+      margin: 0 10px; }
+  .add-programme-form input[type="submit"] {
+    margin: 2% 0;
+    width: 100%; } }

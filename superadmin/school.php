@@ -21,7 +21,7 @@ require_once '../include/sidebar.php';
             $result = $sAdmin->add_school();
             if($result)
             {
-                header('LOCATION:departmentAdd.php?sid='.$id);
+                header('LOCATION:programmeAdd.php?sid='.$id.'&first=true');
             }
             else
             {

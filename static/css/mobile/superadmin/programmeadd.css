@@ -1,0 +1,2 @@
+.add-programme-form .form-wrapper {
+  grid-template: repeat(2, 60px)/1fr; }

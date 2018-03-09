@@ -4,6 +4,24 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+.text-inputs, .add-school-page input[type="text"], .add-department-page input[type="text"] {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  padding: 5px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.7); }
+
+.submit_inputs, .add-school-page input[type="submit"], .add-department-page input[type="submit"] {
+  background-color: #009ACD;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0 6px 5px -2px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 6px 5px -2px rgba(0, 0, 0, 0.7);
+  color: white;
+  cursor: pointer; }
+
 /*
 THIS FILE CONTAINS DEFAULT LAYOUT codes
 */
@@ -24,12 +42,18 @@ body {
 a {
   text-decoration: none; }
 
-.instruction-msg {
+.instruction-msg, .hero {
   background-color: #fcfcfc;
   border-radius: 5px;
   padding: 2% 2% 2% 3%; }
-  .instruction-msg li {
+  .instruction-msg li, .hero li {
     font-size: 14px; }
+
+.hero {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.6);
+  box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.6); }
 
 /*
 THIS FILE CONTAINS CODE FOR include/header,php
@@ -199,24 +223,10 @@ ADMIN FOLDER STYLESHEETS
   color: rgba(0, 0, 0, 0.7); }
   .add-school-page label {
     display: block; }
-  .add-school-page input {
-    width: 100%;
-    height: 40px;
-    outline: none;
-    padding: 5px;
-    border-radius: 2px; }
-  .add-school-page input[type="text"] {
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 1px solid rgba(0, 0, 0, 0.7); }
   .add-school-page input[type="submit"] {
     width: 90%;
-    -webkit-box-shadow: 0 6px 5px -2px rgba(0, 0, 0, 0.7);
-    box-shadow: 0 6px 5px -2px rgba(0, 0, 0, 0.7);
     margin-top: 12%;
-    border: none;
-    color: white;
-    background-color: #009ACD;
-    cursor: pointer; }
+    height: 30px; }
   .add-school-page .add-school-form {
     padding: 2%;
     border-radius: 5px; }
@@ -227,3 +237,32 @@ ADMIN FOLDER STYLESHEETS
     display: grid;
     grid-gap: 1%;
     grid-template-columns: 20% 65% 15%; }
+
+.add-department-page {
+  height: auto;
+  color: rgba(0, 0, 0, 0.8); }
+  .add-department-page .add-programme-form {
+    width: 100%;
+    margin-top: 3%;
+    padding: 2% 4%;
+    background-color: white;
+    min-height: 60vh;
+    border-radius: 5px;
+    position: relative; }
+  .add-department-page input[type="submit"] {
+    margin-left: 57%;
+    margin-top: 15px;
+    width: 30%;
+    height: 40px; }
+  .add-department-page .form-wrapper {
+    display: grid;
+    padding: 1% 0;
+    grid-template-columns: 20% 65%;
+    margin-left: 8%;
+    grid-gap: 10px; }
+  .add-department-page .icon {
+    margin: 1% 0 1% 78%; }
+    .add-department-page .icon img {
+      width: 40px;
+      height: 40px;
+      cursor: pointer; }

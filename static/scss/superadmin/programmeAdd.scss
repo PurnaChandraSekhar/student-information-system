@@ -1,4 +1,46 @@
 .add-department-page
 {
+  height: auto;
+  color: rgba(0,0,0,.8);
+  .add-programme-form
+  {
+    width: 100%;
+    margin-top: 3%;
+    padding: 2% 4%;
+    background-color: white;
+    min-height: 60vh;
+    border-radius: 5px;
+    position: relative;
+  }
+  input[type="text"]
+  {
+    @extend .text-inputs;
+  }
+  input[type="submit"]
+  {
 
+    margin-left: 57%;
+    margin-top: 15px;
+    width: 30%;
+    @extend .submit_inputs;
+    height: 40px;
+  }
+  .form-wrapper
+  {
+    display: grid;
+    padding: 1% 0;
+    grid-template-columns: 20% 65%;
+    margin-left: 8%;
+    grid-gap: 10px;
+  }
+  .icon
+  {
+    margin: 1% 0 1% 78%;
+    img
+    {
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+    }
+  }
 }

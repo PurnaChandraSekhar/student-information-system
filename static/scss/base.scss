@@ -1,14 +1,17 @@
 @import "reset";
+@import "extended";
 @import "variable";
 @import "layout";
 @import "header";
 @import "sidebar";
 @import "login";
 
+
 /*
 ADMIN FOLDER STYLESHEETS
 */
 @import "superadmin/index";
 @import "superadmin/schoolpage";
+@import "superadmin/programmeAdd";
 
 //MOBILE RESPONSIVE STYLESHEETS

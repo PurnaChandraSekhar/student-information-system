@@ -23,7 +23,7 @@ a
 {
   text-decoration: none;
 }
-.instruction-msg
+.instruction-msg,.hero
 {
   background-color:#fcfcfc ;
   border-radius: 5px;
@@ -33,3 +33,10 @@ a
   font-size: 14px;
   }
 }
+.hero
+{
+  text-align: center;
+  color: rgba(0,0,0,.7);
+  box-shadow: 10px 10px 10px -5px rgba(0,0,0,.6);
+}
+
