@@ -9,7 +9,9 @@
 require_once '../include.php';
 require_once '../include/header.php';
 require_once '../include/sidebar.php';
+
 $login->check_login();
+
 if(!isset($_GET['sid']))
 {
     header('LOCATION:index.php');
@@ -37,17 +39,35 @@ else
                     exit();
                 }
             ?>
-            <h2 class="hero"><?php echo $row['sch_name']; ?></h2>
-            <form action="">
-                <div class="form-wrapper">
-                    <div>
-                        <label for="p_id">Programme ID</label>
-                        <input type="text" name="p_id[]" >
+            <div class="hero">
+                <h2><?php echo $row['sch_name']; ?></h2>
+
+                <?php
+//                Checking whether user is coming from school page or somewhere else
+                    if(isset($_GET['first']))
+                    {
+                        echo '<p><small>School Succesfully added</small></p>';
+                    }
+                 ?>
+            </div>
+            <form class="add-programme-form" action="">
+                <input type="hidden" value="<?php echo $row['id']; ?>" name="sid">
+                <div class="wrapper-box">
+                    <div class="form-wrapper first">
+                        <div>
+                            <label for="p_id">Programme ID</label>
+                            <input type="text" name="p_id[]" >
+                        </div>
+                        <div>
+                            <label>Programme Name:</label>
+                            <input type="text" name="p_name">
+                        </div>
                     </div>
-                    <div>
-                        <label>Programme Name:</label>
-                        <input type="text" name="p_name">
-                    </div>
+                </div>
+                <div class="icon">
+                    <span></span>
+                    <img class="plus" src="../static/icon/plus.svg" alt="">
+                    <img class="delete" src="../static/icon/delete.svg" alt="">
                 </div>
                 <div>
                     <input type="submit" value="Submit" name="programme_submit">
